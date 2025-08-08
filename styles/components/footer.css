@@ -1,9 +1,20 @@
-
 footer {
-    text-align: center;
-    font-weight: 400;
-    color: var(--clr-slate600);
-    user-select: none;
-    text-transform: uppercase;
-    letter-spacing: 0.2em;
+  width: 100%;
+  padding: 2rem 1rem;
+  background-color: var(--clr-slate100); /* Optional: light background */
+  text-align: center;
+  font-weight: 400;
+  color: var(--clr-slate600);
+  user-select: none;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-size: 0.875rem; /* Slightly smaller for small devices */
+  box-sizing: border-box;
+  margin-top: auto;
+}
+
+/* Optional: Make sure footer text wraps nicely on small screens */
+footer p {
+  margin: 0;
+  word-break: break-word;
 }

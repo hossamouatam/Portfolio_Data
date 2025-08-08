@@ -23,7 +23,7 @@
 
 .about__description {
     font-size: var(--size-sm);
-    color: #73869f;
+    color: var(--clr-slate600);
     max-width: 60ch;
     line-height: 1.6; /* Added line height for better readability */
 }
@@ -47,7 +47,7 @@
 
 .about__items {
     list-style: none;
-    color: #73869f;
+    color: var(--clr-slate600);
     flex: 1;
     list-style: '\1f44d'; /* Using a checkmark as a list item */
     margin-left: 10px;

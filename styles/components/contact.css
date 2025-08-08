@@ -70,10 +70,10 @@
         font-size: var(--size-6xl);
     }
     .contact__description {
-        font-size: var(--size-xl);
+        font-size: var(--size-lg);
     }
     .contact__btn {
-        font-size: var(--size-2xl);
+        font-size: var(--size-xl);
     }
 }
 
